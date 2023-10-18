@@ -46,6 +46,7 @@ class MainActivity : ComponentActivity() {
 fun Completed(text: String, text2: String, modifier: Modifier = Modifier) {
     val image = painterResource(R.drawable.ic_task_completed)
     Column(
+        modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally) {
         Image (
